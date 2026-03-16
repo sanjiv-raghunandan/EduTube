@@ -3,3 +3,7 @@ streamlit
 deepeval
 pytest
 ollama
+yt-dlp
+openai-whisper
+sentence-transformers
+tqdm
