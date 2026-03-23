@@ -2,8 +2,8 @@ import streamlit as st
 from assistant import EduTubeAssistant
 
 # RAG paths
-RAG_DB_DIR = "ragdb/chromadb_store2"
-RAG_CLEAN_DIR = "ragdb/cleandata2"
+RAG_DB_DIR = (YOUR_VECTOR_DB)
+RAG_CLEAN_DIR = (YOUR_CLEAN_TRANSCRIPT_DATA)
 
 # Page configuration
 st.set_page_config(

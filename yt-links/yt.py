@@ -2,7 +2,7 @@
 import yt_dlp
 
 # Your target playlist URL
-playlist_url = 'https://www.youtube.com/playlist?list=PLVItHqpXY_DC2tDsXAql81QjjgZj_wAPR'
+playlist_url = ' ' # INSERT YOUR LINK HERE
 
 ydl_opts = {
     'extract_flat': True,       # Only extracts metadata, doesn't download the videos

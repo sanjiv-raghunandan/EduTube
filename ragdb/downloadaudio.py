@@ -185,7 +185,7 @@ def main():
     # downloader.download_from_file(file_path)
     
     # Or download from a specific URL
-    downloader.download_single_video("https://www.youtube.com/watch?v=fs5Idcn-8b0")
+    # downloader.download_single_video(YOUR_YOUTUBE_URL)
     
     # List all downloaded files
     # downloader.list_downloaded_files()

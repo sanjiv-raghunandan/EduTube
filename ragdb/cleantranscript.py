@@ -9,7 +9,7 @@ class TranscriptCleaner:
     Cleans raw Whisper transcripts and generates text chunks for RAG.
     """
 
-    def __init__(self, transcript_dir="transcriptdata", clean_dir="cleandata2"):
+    def __init__(self, transcript_dir="transcriptdata", clean_dir="cleandata"):
         """
         Args:
             transcript_dir: Directory containing raw transcripts
@@ -277,7 +277,7 @@ def main():
     """
     cleaner = TranscriptCleaner(
         transcript_dir="transcriptdata",
-        clean_dir="cleandata2"
+        clean_dir="cleandata"
     )
 
     # Process all transcripts

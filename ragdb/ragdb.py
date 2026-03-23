@@ -11,7 +11,7 @@ class RAGDatabase:
     Reads directly from cleandata/ produced by cleantranscript.py.
     """
 
-    def __init__(self, clean_dir="cleandata2", db_dir="chromadb_store2", collection_name="edutube"):
+    def __init__(self, clean_dir="cleandata", db_dir="chromadb_store", collection_name="edutube"):
         """
         Args:
             clean_dir: Directory containing chunk JSON files from cleantranscript.py
@@ -261,8 +261,8 @@ def main():
     Main function to run ingestion.
     """
     db = RAGDatabase(
-        clean_dir="cleandata2",
-        db_dir="chromadb_store2",
+        clean_dir="cleandata",
+        db_dir="chromadb_store",
         collection_name="edutube"
     )
 

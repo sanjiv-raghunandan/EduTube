@@ -8,7 +8,7 @@ class EduTubeAssistant:
     Combines RAG retrieval with LLM inference for question answering.
     """
 
-    def __init__(self, model_name="edutube-llama", db_dir="ragdb/chromadb_store2", clean_dir="ragdb/cleandata2"):
+    def __init__(self, model_name="YOUR_CUSTOM_MODEL", db_dir="ragdb/chromadb_store", clean_dir="ragdb/cleandata"):
         self.model_name = model_name
         self.db = RAGDatabase(
             clean_dir=clean_dir,
